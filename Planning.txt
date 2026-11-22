@@ -1,0 +1,23 @@
+ACOS is a Shell, built for the sole purpose of nothing:
+Planning:
+	v0.1: built in commands
+		Take in input not by std::cin, but by windows API with function
+		ReadConsoleInputW(input, event, countofinputs, countofinputsrecieved)
+		Get commands by making a map with all functions
+	v0.2: Arguments
+		In the commands, now add arguments. For example instead of 
+		"print Hi" --> Hi \n,  make so you can do "print Hi --raw" --> Hi
+	v0.3: launch external programs
+		Launch external with the command CreateProcessW()
+	v0.4: pipes
+		Make pipes like Another argument that takes the output, for example:
+		"print Hi --raw | stdout "example.cpp"" --> Prints "Hi" into example.cpp
+		print Hi --> stdout --> [PIPE] --> stdin --> out example.cpp
+	v0.5 → redirection
+v0.6 → environment variables
+v0.7 → command history
+v0.8 → tab completion
+v0.9 → aliases
+v1.0 → scripting
+
+(Rest of versions will be further informated on) 
