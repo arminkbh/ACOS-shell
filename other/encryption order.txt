@@ -1,6 +1,0 @@
-1. All letters shall be the letter + 1 in WIDEstring
-(A->B, B->C, h->i, ...)
-
-2. Put the first 3 letters to the back
-3. Ascii (convert to numbers)
-4. idk something later :)
