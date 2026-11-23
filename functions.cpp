@@ -26,3 +26,5 @@ void PlayIntro(std::wstring NOTNEEDED) {
 	}
 	SetConsoleOutputCP(oldconsoleCP);
 }
+
+//Function to set variable in variablemanagement.cpp
